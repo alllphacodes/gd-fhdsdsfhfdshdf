@@ -5,6 +5,7 @@
    "main":"bot.js",
    "scripts":{  
       "start":"node bot.js"
+      "gif-search": "^2.0.1",
    },
    "dependencies":{  
       "discord.js":"^11.3.2",
@@ -47,6 +48,6 @@
       "ffmpeg-binaries":"3.1.0",
       "ffmpeg-binaries":"^3.2.2-3",
       "simple-youtube-api":"^5.0.2"
-      "gif-search":"^2.0.1",
+     
    }
 }
