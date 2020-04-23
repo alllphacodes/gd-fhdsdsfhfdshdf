@@ -1,15 +1,31 @@
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (discord.js-heroku)
+version: (1.0.0)
+description: An in-depth guide on deploying your Discord.js bot on Heroku
+entry point: (index.js)
+test command:
+git repository: https://github.com/synicalsyntax/discord.js-heroku
+keywords: heroku, discord.js
+author: synicalsyntax
+license: (ISC) MIT
+About to write to /Users/synicalsyntax/discord.js-heroku/package.json:
+
 {
   "name": "discord.js-heroku",
   "version": "1.0.0",
   "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
   "main": "index.js",
-  "engines": {
-    "node": "8.x",
-    "npm": "*"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,8 +40,8 @@
   "bugs": {
     "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
   },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
-  "dependencies": {
-    "discord.js": "^11.3.0"
-  }
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme"
 }
+
+
+Is this ok? (yes)
